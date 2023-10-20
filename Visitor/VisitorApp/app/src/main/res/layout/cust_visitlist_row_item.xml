@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="0dp"
+    app:cardCornerRadius="5dp"
+    app:cardBackgroundColor="@android:color/transparent"
+    android:layout_marginBottom="5dp">
+
+   <LinearLayout
+       android:background="@drawable/cardborder"
+       android:padding="10dp"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <ImageView
+               android:src="@drawable/icon_shopblack"
+               android:layout_width="50dp"
+               android:layout_height="50dp"/>
+           <TextView
+               android:gravity="center|left"
+               android:fontFamily="serif"
+               android:textSize="20dp"
+               android:id="@+id/custom_visitlist_name"
+               android:text="Shop Name"
+               android:textColor="@color/blackTextColor"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"/>
+       </LinearLayout>
+
+       <TextView
+           android:fontFamily="serif"
+           android:id="@+id/custom_visitlist_location"
+           android:text="Shop Location"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+       <TextView
+           android:lines="3"
+           android:fontFamily="sans-serif-light"
+           android:id="@+id/custom_visitlist_address"
+           android:text="3rd Floor, Darmodhayam Building,, Shanmugham Road, Marine Drive, Kochi, Kerala 682031"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+       <View
+           android:layout_marginVertical="3dp"
+           android:layout_marginHorizontal="10dp"
+           android:background="@color/ash_white"
+           android:layout_width="match_parent"
+           android:layout_height="1dp"/>
+
+       <LinearLayout
+           android:layout_marginTop="5dp"
+           android:weightSum="1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_weight=".5"
+               android:id="@+id/custom_visitlist_phone"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="📱 8899223344" />
+
+           <TextView
+               android:fontFamily="serif"
+               android:textColor="@color/blackTextColor"
+               android:gravity="right"
+               android:layout_weight=".5"
+               android:id="@+id/custom_visitlist_date"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="📅 2021-02-28" />
+       </LinearLayout>
+       <LinearLayout
+           android:weightSum="1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_weight=".5"
+               android:id="@+id/custom_visitlist_email"
+               android:text="✉ Email"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:fontFamily="serif"
+               android:textColor="@color/blackTextColor"
+               android:gravity="right"
+               android:layout_weight=".5"
+               android:id="@+id/custom_visitlist_time"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="⌚ 11:55:51" />
+       </LinearLayout>
+
+   </LinearLayout>
+</androidx.cardview.widget.CardView>

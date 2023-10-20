@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/user_nav_scanqr">
+
+    <fragment
+        android:id="@+id/user_nav_scanqr"
+        android:name="com.syntax.visitorapp.User.ScanQRFragment"
+        android:label="Scan QR"
+        tools:layout="@layout/fragment_user_scanqr" />
+
+    <fragment
+        android:id="@+id/user_nav_view_notice"
+        android:name="com.syntax.visitorapp.User.ViewNoticeFragment"
+        android:label="Notifications"
+        tools:layout="@layout/fragment_user_view_notice" />
+    <fragment
+        android:id="@+id/user_nav_view_visitlist"
+        android:name="com.syntax.visitorapp.User.VisitListFragment"
+        android:label="Visiting History"
+        tools:layout="@layout/fragment_user_visit_list" />
+    <fragment
+        android:id="@+id/user_nav_add_feedback"
+        android:name="com.syntax.visitorapp.User.AddFeedbackFragment"
+        android:label="Feedback"
+        tools:layout="@layout/fragment_add_feedback" />
+    <fragment
+        android:id="@+id/user_nav_profile"
+        android:name="com.syntax.visitorapp.User.UserprofileFragment"
+        android:label="fragment_user_profile"
+        tools:layout="@layout/fragment_user_profile" />
+    <fragment
+        android:id="@+id/user_nav_alerts"
+        android:name="com.syntax.visitorapp.User.ReportedAlert"
+        android:label="Alerts"
+        tools:layout="@layout/fragment_reported_alert" />
+</navigation>

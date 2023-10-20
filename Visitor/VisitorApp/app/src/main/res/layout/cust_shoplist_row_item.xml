@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="10dp"
+    app:cardCornerRadius="5dp"
+    app:cardBackgroundColor="@color/app_white"
+    android:layout_marginBottom="8dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="100dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:fontFamily="monospace"
+            android:id="@+id/custom_shoplist_left_num"
+            android:layout_marginTop="15dp"
+            android:textSize="25dp"
+            android:textColor="@color/whitenext"
+            android:gravity="center"
+            android:text="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textAllCaps="true"
+            android:id="@+id/custom_shoplist_left_shopname"
+            android:fontFamily="serif"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/whitenext"
+            android:gravity="center"
+            android:text="🏪\nshop name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+   <LinearLayout
+       android:padding="10dp"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <TextView
+           android:gravity="center"
+           android:fontFamily="serif"
+           android:textAllCaps="true"
+           android:id="@+id/custom_shoplist_name"
+           android:text="Shop Name"
+           android:textColor="@color/blackTextColor"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+       <View
+           android:layout_marginVertical="3dp"
+           android:layout_marginHorizontal="1dp"
+           android:background="@color/ash_white"
+           android:layout_width="match_parent"
+           android:layout_height="1dp"/>
+       <TextView
+           android:fontFamily="serif"
+           android:id="@+id/custom_shoplist_location"
+           android:text="Shop Location"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+       <TextView
+           android:lines="3"
+           android:fontFamily="sans-serif-light"
+           android:id="@+id/custom_shoplist_address"
+           android:text="3rd Floor, Darmodhayam Building,, Shanmugham Road, Marine Drive, Kochi, Kerala 682031"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+       <View
+           android:layout_marginVertical="3dp"
+           android:layout_marginHorizontal="10dp"
+           android:background="@color/ash_white"
+           android:layout_width="match_parent"
+           android:layout_height="1dp"/>
+
+       <TextView
+           android:layout_marginBottom="3dp"
+           android:layout_marginTop="3dp"
+           android:id="@+id/custom_shoplist_phone"
+           android:text="📱 8899223344"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+       <TextView
+           android:layout_marginBottom="3dp"
+           android:layout_marginTop="3dp"
+           android:id="@+id/custom_shoplist_email"
+           android:text="📧 Email"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+   </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

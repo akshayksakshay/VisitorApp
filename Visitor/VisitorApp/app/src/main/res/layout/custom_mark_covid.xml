@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:background="@android:color/transparent"
+    android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:padding="20dp"
+            android:background="@drawable/cust_roundlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:fontFamily="serif"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/drkblue"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="SignUp Options"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:fontFamily="serif"
+                android:background="@drawable/cust_btn1"
+                android:layout_marginHorizontal="20dp"
+                android:id="@+id/cus_reg_user"
+                android:text="User"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            </Button>
+            
+        </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF1944F8</color>
+    <color name="colorPrimaryDark">#FF6A39F4</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="blackTextColor">#000</color>
+    <color name="red">#FD0000</color>
+    <color name="drkblue">#040A2C</color>
+    <color name="tst">#E39DB5</color>
+    <color name="colorLoginPrimaryDark">#FDFFFF</color>
+    <color name="whitegry">#F1F1F1</color>
+    <color name="spalsh_bg">#E6FAFD</color>
+    <color name="app_white">#FFFFFF</color>
+    <color name="ash_white">#EFEFEF</color>
+    <color name="whitenext">#D3D5E1</color>
+    <color name="tes">#E6AAAAAA</color>
+</resources>

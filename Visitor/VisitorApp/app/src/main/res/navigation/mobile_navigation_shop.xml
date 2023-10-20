@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/shop_nav_add_employee">
+
+    <fragment
+        android:id="@+id/shop_nav_add_employee"
+        android:name="com.syntax.visitorapp.Shop.ShopAddEmployeeFragment"
+        android:label="Add Employee"
+        tools:layout="@layout/fragment_shop_add_employee" />
+
+    <fragment
+        android:id="@+id/shop_nav_employees"
+        android:name="com.syntax.visitorapp.Shop.ShopViewEmployeesFragment"
+        android:label="Employees"
+        tools:layout="@layout/fragment_shop_view_employees" />
+    <fragment
+        android:id="@+id/shop_nav_view_notice"
+        android:name="com.syntax.visitorapp.User.ViewNoticeFragment"
+        android:label="Notice"
+        tools:layout="@layout/fragment_shop_view_notice" />
+    <fragment
+        android:id="@+id/shop_nav_alerts"
+        android:name="com.syntax.visitorapp.Admin.Alerts"
+        android:label="Alerts"
+        tools:layout="@layout/fragment_alerts" />
+
+</navigation>

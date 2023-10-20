@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:paddingBottom="100dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/app_white"
+    tools:context=".Admin.ReportCovid">
+    <TextView
+        android:fontFamily="sans-serif-thin"
+        android:textSize="35dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/blackTextColor"
+        android:text="Report Covid Entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="serif"
+        android:textColor="@color/tes"
+        android:text="wizard guides you through the process of reporting a new covid positive user. You have the flexibility to enter comprehensive information about a user ,who enter to this shop with enty date ,this will alert users to take pay attention !"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="25dp"
+        android:layout_marginHorizontal="15dp"
+        android:background="@drawable/cust_edittextlayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:paddingHorizontal="5dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/report_covid_date"
+            android:focusable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Visited Date"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="25dp"
+        android:layout_marginHorizontal="15dp"
+        android:background="@drawable/cust_edittextlayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:paddingHorizontal="5dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/report_covid_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name "/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="25dp"
+        android:layout_marginHorizontal="15dp"
+        android:background="@drawable/cust_edittextlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:paddingHorizontal="5dp"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:gravity="left"
+            android:background="@android:color/transparent"
+            android:id="@+id/report_covid_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="20dp"
+        android:paddingHorizontal="5dp"
+        android:background="@drawable/cust_edittextlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:background="@android:color/transparent"
+            android:inputType="textMultiLine"
+            android:lines="6"
+            android:gravity="left"
+            android:id="@+id/report_covid_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Describe alert notification details"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:textColor="@color/app_white"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="35dp"
+        android:fontFamily="serif"
+        android:background="@drawable/cust_btn1"
+        android:id="@+id/report_covid_btnadd"
+        android:text="Report"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+</ScrollView>
